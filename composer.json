@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/parsing",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "dell",
+      "email": "kushiy@mail.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Web\\": "src/"
+    }
+  },
+  "require": {
+    "electrolinux/phpquery": "^0.9.6"
+  }
+}
